@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(93, 93, 243);
+    background-image: url('Imagens/AdobeStock_487720905-Convertido.png');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-position: unset; /* Centraliza a imagem dentro do elemento */
+    background-position-y: 21%;
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-color:#FDEACF; /* Cor de fallback caso a imagem não carregue */
+    color: white;
+    padding: 20px 0;
+}
+
+header {
+    background-color: transparent;
+    color:#E9516A;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+section h2 {
+    text-align: center;
+    color:#e4b169af;
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+form label{
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*height: 100vh;  Isso centralizará verticalmente  o conteúdo */
+    max-width: 500px; /* Defina a largura máxima desejada */
+    margin: 0 auto; /* Isso centralizará horizontalmente o conteúdo */
+    padding: 0 20px;/* Adiciona um pouco de espaço às margens internas */
+    background-color: transparent;
+    color: black;
+    border-radius: 30%;
+    font-weight: bold;
+}
+
+.container label {
+    margin-bottom: 10px; /* Adicionando um espaço entre os labels e os inputs */
+    color:#000000da;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container input {
+     /* Garantir que os inputs ocupem toda a largura disponível */
+    margin-bottom: 10px; /* Adicionando um espaço entre os inputs */
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:#e4b169af;
+}
+
+.container button{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #e4b169af;
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
